@@ -133,7 +133,7 @@ $(document).ready(function () {
 					// start countdown
 					timer = setTimeout(function () {
 						CMS.API.StructureBoard.setActive(that.options.plugin_id, true);
-					}, 500);
+					}, 1000);
 				} else {
 					clearTimeout(timer);
 				}
@@ -198,7 +198,7 @@ $(document).ready(function () {
 								$(document).unbind('mousemove.keypress');
 							}, 1000);
 						});
-					}, 500);
+					}, 1000);
 				} else {
 					clearTimeout(timer);
 				}
