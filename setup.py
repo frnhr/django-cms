@@ -21,13 +21,13 @@ CLASSIFIERS = [
 ]
 
 setup(
-    author="Patrick Lauber",
-    author_email="digi@treepy.com",
-    name='django-cms',
+    author="Fran Hrzenjak",
+    author_email="fran.hrzenjak@gmail.com",
+    name='tocka-django-cms',
     version=cms.__version__,
     description='An Advanced Django CMS',
     long_description=open(os.path.join(os.path.dirname(__file__), 'README.rst')).read(),
-    url='https://www.django-cms.org/',
+    url='https://github.com/frnhr/tocka-django-cms',
     license='BSD License',
     platforms=['OS Independent'],
     classifiers=CLASSIFIERS,
