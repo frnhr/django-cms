@@ -133,6 +133,7 @@ $(document).ready(function () {
 					// start countdown
 					timer = setTimeout(function () {
 						CMS.API.StructureBoard.setActive(that.options.plugin_id, true);
+						CMS.API.StructureBoard.show();
 					}, 1000);
 				} else {
 					clearTimeout(timer);
